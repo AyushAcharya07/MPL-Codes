@@ -89,3 +89,16 @@ print dispnum+14,02
 
 ret
 
+OUTPUT:-
+(base) admin1@410-7:~/F21111036$ nasm -f elf64 MPL4NEW.asm
+(base) admin1@410-7:~/F21111036$ ld -o a MPL4NEW.o
+(base) admin1@410-7:~/F21111036$ ./a
+
+Enter the string needed : 
+ayush_mpl4code
+
+The entered string from user is : 
+ayush_mpl4code
+
+The length of the entered string is  : 
+14(base)
