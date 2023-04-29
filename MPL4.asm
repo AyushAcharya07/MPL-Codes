@@ -101,3 +101,26 @@ dispskip1:
           write ans,2
           
           ret
+          
+          
+OUTPUT:
+(base) admin1@410-7:~/F21111036$ nasm -f elf64 MPL5.asm
+(base) admin1@410-7:~/F21111036$ ld -o A MPL5.o
+(base) admin1@410-7:~/F21111036$ ./A
+
+ALP to perform Non-overlapped Block Data transfer without string related instructions
+
+
+Source Block contents before transfer are : 
+10
+20
+30
+40
+50
+
+Destination Block contents after tranfer are : 
+10
+20
+30
+40
+50
