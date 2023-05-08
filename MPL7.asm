@@ -155,6 +155,20 @@ global _start
                     
                     ret
                     
+                    
+Output:-
+(base) admin1@410-7:~/F21111036$ nasm -f elf64 MPL7.asm
+(base) admin1@410-7:~/F21111036$ ld -o 7 MPL7.o
+(base) admin1@410-7:~/F21111036$ ./7
+
+The processor is in Protected Mode
+The contents of GDTR are -> 000F6000:007F
+The contents of LDTR are -> 0000
+The contents of IDTR are -> 00000000:0FFF
+The contents of Task Register are -> 0040
+The contents of MSW are -> 8005FFFF
+
+                    
 
 
 
