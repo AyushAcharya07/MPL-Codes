@@ -108,6 +108,27 @@ _start:
 
 		ret
 
+OUTPUT:-
+(base) admin1@410-7:~/F21111036$ nasm -f elf64 MPL8.asm
+(base) admin1@410-7:~/F21111036$ ld -o new MPL8.o
+(base) admin1@410-7:~/F21111036$ ./new
+
+ALP to find the largest of the given no. in an array
+
+The contents of the array are : 
+10
+ 
+20
+ 
+30
+ 
+40
+ 
+70
+ 
+
+The largest no. from the array is : 
+70
 
 
 
